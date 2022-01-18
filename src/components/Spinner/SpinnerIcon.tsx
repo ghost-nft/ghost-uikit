@@ -11,7 +11,7 @@ const Icon: React.FC<SvgProps> = (props) => {
          values="1;.2;1" calcMode="linear"
          repeatCount="indefinite" />
     </circle>
-    <circle cx="8" cy="33.6" r="8" fill-opacity=".5">
+    <circle cx="8" cy="33.6" r="8" fillOpacity=".5">
         <animate attributeName="fill-opacity"
          begin="100ms" dur="1s"
          values="1;.2;1" calcMode="linear"

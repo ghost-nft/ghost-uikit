@@ -2946,23 +2946,23 @@ var Slider = function (_a) {
 var Icon = function (props) {
     return (React__default.createElement(Svg, { width: "75.2", height: "75.2", viewBox: "0 0 75.2 75.2", xmlns: "http://www.w3.org/2000/svg", fill: "#333" },
         React__default.createElement("circle", { cx: "8", cy: "8", r: "8" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "0s", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "0s", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
         React__default.createElement("circle", { cx: "8", cy: "33.6", r: "8", fillOpacity: ".5" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "100ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "100ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
         React__default.createElement("circle", { cx: "33.6", cy: "8", r: "8" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "300ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "300ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
         React__default.createElement("circle", { cx: "33.6", cy: "33.6", r: "8" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "600ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "600ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
         React__default.createElement("circle", { cx: "59.2", cy: "8", r: "8" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "800ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "800ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
         React__default.createElement("circle", { cx: "59.2", cy: "33.6", r: "8" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "400ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "400ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
         React__default.createElement("circle", { cx: "8", cy: "59.2", r: "8" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "700ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "700ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
         React__default.createElement("circle", { cx: "33.6", cy: "59.2", r: "8" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "500ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "500ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" })),
         React__default.createElement("circle", { cx: "59.2", cy: "59.2", r: "8" },
-            React__default.createElement("animate", { attributeName: "fillOpacity", begin: "200ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" }))));
+            React__default.createElement("animate", { attributeName: "fill-opacity", begin: "200ms", dur: "1s", values: "1;.2;1", calcMode: "linear", repeatCount: "indefinite" }))));
 };
 
 keyframes(templateObject_1$t || (templateObject_1$t = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));

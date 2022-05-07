@@ -32,7 +32,7 @@ const getHeight = ({ scale = scales.MD }: StyledTextareaProps) => {
   }
 };
 
-const Textarea = styled.input<TextareaProps>`
+const Textarea = styled.textarea<TextareaProps>`
   background-color: ${({ theme }) => theme.colors.input};
   border: 0;
   border-radius: 16px;

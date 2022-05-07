@@ -42,7 +42,7 @@ const Textarea = styled.textarea<TextareaProps>`
   font-size: 16px;
   height: ${getHeight};
   outline: 0;
-  padding: 0 16px;
+  padding: 8px 16px;
   width: 100%;
   word-break: break-all;
   border: 1px solid ${({ theme }) => theme.colors.inputSecondary};

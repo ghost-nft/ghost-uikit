@@ -19,7 +19,7 @@ export { default as BscScanIcon } from "./Icons/BscScan";
 export { default as BunnyCardsIcon } from "./Icons/BunnyCards";
 export { default as BunnyPlaceholderIcon } from "./Icons/BunnyPlaceholder";
 export { default as GhostPlaceholderIcon } from "./Icons/GhostPlaceholder";
-export { default as BannerPlaceholderIcon } from "./Icons/BannerPlaceHolder";
+export { default as BannerPlaceholderIcon } from "./Icons/BannerPlaceholder";
 export { default as CalculateIcon } from "./Icons/Calculate";
 export { default as CameraIcon } from "./Icons/Camera";
 export { default as Cards } from "./Icons/Cards";

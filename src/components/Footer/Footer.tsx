@@ -87,7 +87,7 @@ const MenuItem: React.FC<FooterProps> = ({
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Button
               as="a"
-              href="https://ghostnft.io/nft"
+              href="/nfts"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}

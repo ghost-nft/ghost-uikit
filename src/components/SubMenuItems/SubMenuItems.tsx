@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "../Box";
+import { Flex } from "../Box";
 import MenuItem from "../MenuItem/MenuItem";
 import IconComponent from "../Svg/IconComponent";
 import StyledSubMenuItems from "./styles";
@@ -21,7 +21,7 @@ const SubMenuItems: React.FC<SubMenuItemsProps> = ({
       {items.map(
         ({ label, href, iconName }) =>
           label && (
-            <Box key={label} mr="20px">
+            <Flex key={label} mr="20px" flex="0 0 auto">
               <MenuItem
                 href={href}
                 isActive={href === activeItem}
@@ -36,7 +36,7 @@ const SubMenuItems: React.FC<SubMenuItemsProps> = ({
                 )}
                 {label}
               </MenuItem>
-            </Box>
+            </Flex>
           )
       )}
     </StyledSubMenuItems>

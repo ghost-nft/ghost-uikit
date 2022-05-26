@@ -18,29 +18,27 @@ const SubMenuItems: React.FC<SubMenuItemsProps> = ({
       pl={["12px", null, "0px"]}
       $isMobileOnly={isMobileOnly}
     >
-      <Box>
-        {items.map(
-          ({ label, href, iconName }) =>
-            label && (
-              <Box key={label} mr="20px">
-                <MenuItem
-                  href={href}
-                  isActive={href === activeItem}
-                  variant="subMenu"
-                >
-                  {iconName && (
-                    <IconComponent
-                      color={href === activeItem ? "secondary" : "textSubtle"}
-                      iconName={iconName}
-                      mr="4px"
-                    />
-                  )}
-                  {label}
-                </MenuItem>
-              </Box>
-            )
-        )}
-      </Box>
+      {items.map(
+        ({ label, href, iconName }) =>
+          label && (
+            <Box key={label} mr="20px">
+              <MenuItem
+                href={href}
+                isActive={href === activeItem}
+                variant="subMenu"
+              >
+                {iconName && (
+                  <IconComponent
+                    color={href === activeItem ? "secondary" : "textSubtle"}
+                    iconName={iconName}
+                    mr="4px"
+                  />
+                )}
+                {label}
+              </MenuItem>
+            </Box>
+          )
+      )}
     </StyledSubMenuItems>
   );
 };

@@ -1,5 +1,5 @@
-import { Language } from "../LangSelector/types";
-import { FooterLinkType } from "./types";
+import { Language } from "../LangSelector/types"
+import { FooterLinkType } from "./types"
 
 export const footerLinks: FooterLinkType[] = [
   {
@@ -16,7 +16,7 @@ export const footerLinks: FooterLinkType[] = [
       {
         label: "Community",
         href: "https://docs.ghostnft.io/contact-us",
-      }
+      },
     ],
   },
   {
@@ -46,10 +46,10 @@ export const footerLinks: FooterLinkType[] = [
       {
         label: "Documentation",
         href: "https://docs.ghostnft.io",
-      }
+      },
     ],
   },
-];
+]
 
 export const socials = [
   {
@@ -67,8 +67,8 @@ export const socials = [
       },
       {
         label: "日本語",
-        href: "https://t.me/https://t.me/ghostjapanese",
-      }
+        href: "https://t.me/ghostjapanese",
+      },
     ],
   },
   {
@@ -80,11 +80,11 @@ export const socials = [
     label: "Github",
     icon: "Github",
     href: "https://github.com/ghost-nft",
-  }
-];
+  },
+]
 
 export const langs: Language[] = [...Array(20)].map((_, i) => ({
   code: `en${i}`,
   language: `English${i}`,
   locale: `Locale${i}`,
-}));
+}))

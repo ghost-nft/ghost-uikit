@@ -11,7 +11,7 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Blog",
-        href: "https://medium.ghostnft.io/",
+        href: "https://medium.com/@ghost-nft",
       },
       {
         label: "Community",
